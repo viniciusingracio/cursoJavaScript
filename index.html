@@ -5,15 +5,26 @@
     <body>
        <script>
            function retornaSexo(sexo) {
-               if (sexo == "M") {
-                   return "Masculino";
-               } else {
-                   return "Feminino";
-               }
-           }
-            var Resultado = retornaSexo("F");
-            console.log(Resultado);
+                switch (sexo) {
+                    case 'M':
+                    return 'Masculino';
+                    case 'F':
+                    return 'Feminino';
+                    default: 
+                    return 'Outro';
+                }
 
+               //if (sexo == "M") {
+                 //  return "Masculino";
+               //} else  if (sexo === "F") {
+                  // return "Feminino";
+                //} else {
+                  //   return "outro";
+                 //}
+               }
+           
+            var Resultado = retornaSexo("ddd");
+            console.log(Resultado);
 
            console.log('Olá Mundo!!!');
 
