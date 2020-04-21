@@ -4,51 +4,9 @@
     </head>
     <body>
        <script>
-           // AND, OR, NOT
-           var sexo = 'F', idade = 15;
-           if (sexo === 'M'|| idade >=18) {
-                console.log('OK');
-           }  
-
-
-
-
-           function retornaSexo(sexo) {
-                switch (sexo) {
-                    case 'M':
-                    return 'Masculino';
-                    case 'F':
-                    return 'Feminino';
-                    default: 
-                    return 'Outro';
-                }
-
-               //if (sexo == "M") {
-                 //  return "Masculino";
-               //} else  if (sexo === "F") {
-                  // return "Feminino";
-                //} else {
-                  //   return "outro";
-                 //}
-               }
-           
-            var Resultado = retornaSexo("ddd");
-            console.log(Resultado);
-
-           console.log('Olá Mundo!!!');
-
-           var alunos = ['Vinicius', 'Eliziane', 'Duda'];
-           console.log(alunos);
-           console.log(alunos[2]);
-
-           var aluno = {
-            nome: 'Vinicius',
-            cidade: 'POA',
-            peso: 75,
-            humano: true
-           };
-           console.log(aluno);
-           console.log(aluno.nome);
+           var sexo = 'M';
+           var retorno = (sexo === 'M') ? 'Masculino' : 'Feminino';
+           console.log(retorno);
        </script>         
            
     </body>
